@@ -12,7 +12,7 @@ const Gallery = () => {
       <div className="flex w-full items-center justify-center fontlogo md:p-4 p-2 font-semibold underline">
               <p className="md:text-5xl text-lg">Gallery</p>
           </div>
-          <div className='md:flex-col md:p-10 p-6 justify-center'>
+          <div className='flex-col p-10 justify-evenly w-full'>
               <div className='md:flex'>
                   <div className='md:w-[400px] md:p-4 w-[300px] p-2'>
                   <img src={img1} alt="img1" className='object-cover'/>

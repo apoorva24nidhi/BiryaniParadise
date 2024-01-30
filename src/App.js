@@ -10,10 +10,9 @@ import Contact from "./components/Contact";
 import ViewMenu from "./components/ViewMenu";
 import Reservations from "./components/Reservations";
 
-
 const App = () => {
   return (
-    <div id="home" className="">
+    <div id="home" className="bg-pink-50">
       <Navbar />
       <Main />
       <About />

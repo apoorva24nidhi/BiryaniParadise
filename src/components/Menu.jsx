@@ -19,10 +19,9 @@ const Menu = () => {
                   </p>
               </div>
               {/* Veg */}
-
-                  <div className='md:flex w-full md:h-[600px] h-[300px] justify-evenly items-center p-6'>
-                      <div className="bg-white flex md:h-[450px] h-[250px] md:w-[600px] w-full top-[15%] relative items-center justify-center">
-                          <img className="top-[-10%] md:h-[150px] h-[60px] md:w-[150px] w-[60px] rounded-full absolute"
+                  <div className='md:flex w-full md:h-[600px] h-full justify-evenly items-center p-6'>
+                      <div className="bg-white flex md:h-[450px] h-[250px] md:w-[600px] w-full relative items-center justify-center">
+                          <img className="md:visible hidden top-[-10%] md:h-[150px] h-[60px] md:w-[150px] w-[60px] rounded-full absolute"
                               src={menu_img2} alt="img"></img>
                           <div className=' md:p-7 p-3 md:pt-28 pt-12'>
                               <p className="md:text-[40px] text-sm md:pb-6 p-2">
@@ -39,36 +38,39 @@ const Menu = () => {
                               </p>                              
                           </div>
                       </div>
-                          <div className="justify-center md:visible hidden">
-                              <img className="w-[600px] h-[600px]" src={menu_img1} alt='img'></img>
+                          <div className="justify-center">
+                              <img className="md:w-[600px] w-[300px] md:h-[600px] h-[300px]" src={menu_img1} alt='img'></img>
                           </div>
               </div>
-                  <div className='md:flex w-full md:h-[600px] h-[300px] justify-evenly p-6'>
-                  <div className="justify-center  md:visible hidden">
-                              <img className="w-[600px] h-[600px]" src={menu_img3} alt='img'></img>
+                            {/* Non Veg */}
+
+              <div className='md:flex w-full md:h-[600px] h-full justify-evenly items-center p-6'>
+                  <div className="justify-center">
+                              <img className="md:w-[600px] w-[300px] md:h-[600px] h-[300px]" src={menu_img3} alt='img'></img>
                           </div>
-                      <div className="bg-white flex md:h-[450px] h-[250px] md:w-[600px] w-full top-[15%] relative items-center justify-center">
-                          <img className="top-[-10%] md:h-[150px] h-[60px] md:w-[150px] w-[60px] rounded-full absolute"
+                      <div className="bg-white flex md:h-[450px] h-[250px] md:w-[600px] w-full relative items-center justify-center">
+                          <img className=" md:visible hidden top-[-10%] md:h-[150px] h-[60px] md:w-[150px] w-[60px] rounded-full absolute"
                               src={menu_img4} alt="img"></img>
                           <div className=' md:p-7 p-3 md:pt-28 pt-12'>
-                              <p className="md:text-[40px] text-sm md:pb-6 p-2">
-                                  Non-Vegetarian Dishes
+                              <p className="md:text-[35px] text-sm md:pb-6 p-2">
+                                   Non-Vegetarian Dishes
                               </p>
                               <p className="md:text-[25px] text-[15px] italic text-slate-600 md:pt-4 pt-2">
                                   Chicken Biryani ------ 199/-
                               </p>
                               <p className="md:text-[25px] text-[15px] italic text-slate-600 md:pt-4 pt-2">
-                                  Mutton Biryani ------ 249/-
+                                  Mutton Biryani --------- 249/-
                               </p>
                               <p className="md:text-[25px] text-[15px] italic text-slate-600 md:pt-4 pt-2 md:pb-2 pb-1">
                                   Fish Kabab ------------- 229/-
                               </p>                              
                           </div>
                       </div>
-                      <div>
                           
                   </div>
-              </div>
+                  
+                          
+                
 
 
 

@@ -33,13 +33,12 @@ const Main = () => {
         />
 
       </div>
-      <div className="absolute md:top-[40%] top-[20%] md:p-4 p-2 text-center justify-center left-[25%] right-[25%] h-full">
+      <div className="absolute md:top-[30%] top-[15%] md:p-4 p-2 text-center justify-center left-[25%] right-[25%]">
         <p className="text-sm font-bold md:text-5xl">Eating is a Neccessity but Cooking is an Art</p>
-        <p className='md:text-lg text-xs md:pt-4 pt-2 md:pb-4 pb-2'>Multi Cuisine Family Restaurant.</p>
-        <div className="md:my-4 my-1">
+        <p className='md:text-lg text-xs md:pt-4 pt-2 md:pb-5 pb-2'>Multi Cuisine Family Restaurant.</p>
+        <div className="">
           <a href='#reserve'
-            className="rounded border border-gray-300 bg-gray-300 
-            text-black md:py-2 py-0 md:px-5 px-1 md:text-lg text-xs">
+            className="rounded bg-pink-100 text-rose-800  md:text-xl text-xs md:p-3 p-1">
             Reservation
           </a>
         </div>
